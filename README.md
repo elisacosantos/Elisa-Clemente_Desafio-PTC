@@ -1,0 +1,63 @@
+# Elisa-Clemente_Desafio-PTC
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Card de apresentação - Desafio PTC </title>
+        <style>
+        
+        .minha-imagem {
+             border-radius: 10px; 
+              margin: 0 auto;
+              margin-top: 50px;
+               display: block;
+               background-color: whitesmoke; 
+               background-size: contain;
+            }
+        
+        .meu-texto {
+             border-radius: 5px;
+              margin: 5px auto;
+               display: block;
+               font-size: x-large;
+                text-align: center;
+                max-width: fit-content;
+             background-color: whitesmoke
+             
+            }
+
+            
+            .img {
+                margin-top: 100px; 
+            }
+            .meu-texto, minha-imagem { background-color: rgb(255, 235, 216);}
+
+            body {
+                background-color: rgb(255, 166, 0);
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="img">
+            <img src="../Desafio PTC/Desenvolvimento PTC.png" alt="descrição" width="350" class="minha-imagem">
+        </div>
+        
+        <nav></nav>
+       
+        <div class="meu-texto">
+            <article> 
+                Elisa Clemente de Oliveira Santos <br>
+                23 anos | Mãe de pet | #admporamor <br>
+                .<br>
+                Vitalidade ------------------------- 60<br>
+                Carisma --------------------------- 90<br>
+                Criatividade ---------------------- 70<br>
+                Organização ----------------------- 50<br>
+                Pontualidade ---------------------- 100<br>
+            </article>
+        </div>
+
+        <div class="meu-texto minha-imagem" ></div>
+    </body>
+</html>
+
